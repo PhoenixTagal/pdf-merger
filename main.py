@@ -49,7 +49,7 @@ def merge_pdfs(input_paths, output_path):
         pdf_merger.write(output_file)
 
 
-file_path = fr"{test_vars['1551_2023']}\Q2"
-
-merge_pdfs(input_paths=make_list_of_file_paths(file_path), output_path=fr"{file_path}\Q2 1551 Eyewash and Shower Inspections.pdf")
-
+file_path = fr"{test_vars['1165_2023']}\Q3"
+#
+# merge_pdfs(input_paths=make_list_of_file_paths(file_path), output_path=fr"{file_path}\Q3 Bothell Eyewash and Shower Inspections.pdf")
+print(make_list_of_file_paths(file_path))
