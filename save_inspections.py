@@ -1,5 +1,5 @@
 """
-This script copys saved eye/wash and shower inspections from the ehs facilities onedrive shortcut directory to the directory linked to the EHS truenorth site.
+This script copies saved eye/wash and shower inspections from the ehs facilities onedrive shortcut directory to the directory linked to the EHS truenorth site.
 """
 
 import shutil
@@ -39,4 +39,3 @@ for source_dir, destination_dir in zip(source_directory_values, destination_dire
 
 print("File copying o EHS TrueNorth sharepoint site directory completed.")
 
-adding this for demo purpose
